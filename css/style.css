@@ -426,7 +426,7 @@ template {
 
 .main {
   background-color: #f5f5f5;
-  padding: 50px 0;
+  padding: 60px 0;
 }
 
 .main-wrap {
@@ -443,6 +443,7 @@ template {
 .main-text__title {
   font-size: 41px;
   line-height: 55px;
+  margin-top: 18px;
   font-family: 'Museo Sans Bold', sans serif;
   margin-bottom: 50px;
 }
@@ -450,10 +451,10 @@ template {
 .main-text__title span {
   font-size: 20px;
   display: block;
-  margin-top: 20px;
+  margin-top: 21px;
 }
 
-.main-image {
+.main-img {
   -ms-flex-preferred-size: 50%;
       flex-basis: 50%;
 }
@@ -503,6 +504,11 @@ template {
 
 .main-advantages__img-3 {
   background-image: url(../img/main/paint-board.png);
+}
+
+.form {
+  max-width: 575px;
+  border: solid 2px;
 }
 
 body {
